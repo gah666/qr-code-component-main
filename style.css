@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(213, 23%, 75%);
+}
+
+.border {
+border-radius: 20px;
+background: hsl(0, 2%, 21%);
+padding: 15px; 
+width: 240px;
+height: 400px;  
+position: absolute;
+left: 50%;
+top: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-box-shadow: 0px 0px 68px 11px rgb(170, 32, 32);
+-moz-box-shadow: 0px 0px 68px 11px rgb(192, 59, 59);
+box-shadow: 0px 0px 68px 11px rgb(148, 24, 24);
+
+}
+
+.image {
+  width:240px; /*width of your image*/
+  height:240px; /*height of your image*/
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  content: url(./images/image-qr-code.png);
+  border-radius: 20px;
+
+}
+
+#maintext {
+font-family: 'Outfit', sans-serif;
+color: hsl(216, 27%, 89%);
+font-weight: 100px;
+text-align: center;
+text-justify: inter-word;
+}
+
+p {
+font-family: 'Outfit', sans-serif;
+font-weight: 400px;
+color: hsl(219, 21%, 87%);
+text-align: center;
+font-size:18px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; font-family: 'Outfit', sans-serif;}
+.attribution a { color: hsl(228, 45%, 44%); }
